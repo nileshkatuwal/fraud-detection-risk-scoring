@@ -1,0 +1,31 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Data - NEVER commit raw datasets
+data/raw/
+data/processed/
+
+# Model files
+models/
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# Environment/secrets
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
